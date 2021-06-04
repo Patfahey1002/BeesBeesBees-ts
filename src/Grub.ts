@@ -2,6 +2,9 @@ class Grub {
     age: number;
     color: string;
     food: string;
+    eat(): string {
+        return 'Mmmmmmmmm jelly';
+    }
 
     constructor() {
         this.age = 0;
