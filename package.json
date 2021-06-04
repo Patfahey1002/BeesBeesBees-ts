@@ -9,7 +9,7 @@
   "scripts": {
     "watch-compile": "npx tsc --outdir dist --watch",
     "compile": "npx tsc --outdir dist",
-    "test": "npm run compile && open test/index.html"
+    "test": "npm run compile && start test/index.html"
   },
   "author": "",
   "license": "ISC",
